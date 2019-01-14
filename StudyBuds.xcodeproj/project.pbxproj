@@ -16,6 +16,7 @@
 		888CD75021EAA661009CD49F /* StudyBudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CD74F21EAA661009CD49F /* StudyBudsTests.swift */; };
 		888CD75B21EAA661009CD49F /* StudyBudsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CD75A21EAA661009CD49F /* StudyBudsUITests.swift */; };
 		888CD76B21EAADB8009CD49F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CD76A21EAADB8009CD49F /* SettingsViewController.swift */; };
+		889CBFB921EBEC37005E88F6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889CBFB821EBEC37005E88F6 /* DetailsViewController.swift */; };
 		88BE754F21EB743A003313EB /* GroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BE754E21EB743A003313EB /* GroupData.swift */; };
 		88BE755121EB832D003313EB /* GroupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BE755021EB832D003313EB /* GroupCellView.swift */; };
 		88FF3B0B21EABF06001967D9 /* NewRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF3B0A21EABF06001967D9 /* NewRoomViewController.swift */; };
@@ -55,6 +56,7 @@
 		888CD75A21EAA661009CD49F /* StudyBudsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBudsUITests.swift; sourceTree = "<group>"; };
 		888CD75C21EAA661009CD49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888CD76A21EAADB8009CD49F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		889CBFB821EBEC37005E88F6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		88BE754E21EB743A003313EB /* GroupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupData.swift; sourceTree = "<group>"; };
 		88BE755021EB832D003313EB /* GroupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellView.swift; sourceTree = "<group>"; };
 		88FF3B0A21EABF06001967D9 /* NewRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoomViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				888CD76A21EAADB8009CD49F /* SettingsViewController.swift */,
 				88FF3B0A21EABF06001967D9 /* NewRoomViewController.swift */,
 				888CD73E21EAA65F009CD49F /* Main.storyboard */,
+				889CBFB821EBEC37005E88F6 /* DetailsViewController.swift */,
 				88BE754E21EB743A003313EB /* GroupData.swift */,
 				88BE755021EB832D003313EB /* GroupCellView.swift */,
 				888CD74121EAA660009CD49F /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 				88BE755121EB832D003313EB /* GroupCellView.swift in Sources */,
 				88FF3B0B21EABF06001967D9 /* NewRoomViewController.swift in Sources */,
 				88BE754F21EB743A003313EB /* GroupData.swift in Sources */,
+				889CBFB921EBEC37005E88F6 /* DetailsViewController.swift in Sources */,
 				888CD73D21EAA65F009CD49F /* MapViewController.swift in Sources */,
 				888CD73921EAA65F009CD49F /* AppDelegate.swift in Sources */,
 				888CD73B21EAA65F009CD49F /* SpacesViewController.swift in Sources */,

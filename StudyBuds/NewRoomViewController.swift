@@ -27,7 +27,9 @@ class NewRoomViewController: UIViewController {
 
 
     @IBAction func createBtnPressed(_ sender: Any) {
-        print("Button Pressed")
+        let newGroup = GroupData().create(locationField.text ?? "Current Location 🗺", name : nameField.text ?? "New group", description: descriptionField.text, numberOfMembers: 1)
+        groups.append(newGroup)
+        print("appending new group")
     }
     
     
