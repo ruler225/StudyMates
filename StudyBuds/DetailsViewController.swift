@@ -12,6 +12,7 @@ import MapKit
 class DetailsViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,10 @@ class DetailsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func btnClicked(_ sender: Any) {
+        titleLabel.text = "Button Clicked"
+    }
+    
     /*
     // MARK: - Navigation
 
